@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0 auto;
+	padding:0px;
+	width:1280px;
+}
+
+ul{
+	padding: 0px;	
+}
+
+ul li{
+	list-style:none;	
+}
+
+a{
+	text-decoration: none;'
+}
+
+table, tr, td{
+	margin:  0px;
+	padding:  0px;
+}
+
+.logo{
+	background-color:#ff00dd;	
+	display: block;
+	width: 150px;
+	height:150px;
+	float:left;
+}
+
+.top_nav  ul, .bot_nav ul{
+	display:inline;
+}
+
+.top_nav{
+	height:75px;
+}
+	
+	.top_nav  ul{
+		float:right;	
+	}
+	
+	.top_nav  li{
+		margin: 15px;
+		padding:5px;
+		border-left: 1px solid black;
+	}
+ 
+	.top_nav li:hover{
+		color: red;
+		cursor: pointer;
+		border-left:  1px dotted blue; 
+	}
+
+	.top_contents{
+		margin-top: 20px;
+		margin-left: 10px;
+		float: left;
+	}
+
+.bot_nav{
+	height:70px;	
+	clear: right;
+}
+
+	 .bot_nav  li{
+		padding: 30px;
+	 }
+
+.top_nav  li, .bot_nav li{
+	display: inline;	
+}
+
+.container{
+	height: 500px;	
+	clear:both;	
+}
+
+aside{
+	width: 250px;
+	float: left;
+}
+
+	.side_title{
+		height: 100px;
+		background-color:#09F;	
+	}
+	
+	aside li{
+		height: 30px;	
+	}
+	
+section{
+	background-color:#3CF;	
+	height: 500px;
+	margin-left: 250px;
+	
+}
+	.main_title{
+		height: 100px;	
+	}
+
+	.main_title textarea{
+		width: 700px;
+
+	}
+
+
+footer{
+	height: 200px;
+	background-color: #0d0d0d;
+	color: white;
+	padding: 20px;
+}
+}	
